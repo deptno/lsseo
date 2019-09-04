@@ -1,0 +1,27 @@
+{
+  "name": "lsseo",
+  "version": "0.0.3",
+  "main": "dist/index.js",
+  "bin": {
+    "lsseo": "dist/index.js",
+    "seo": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deptno/lsseo.git"
+  },
+  "author": "Bonggyun Lee<deptno@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.18.0",
+    "rollup-plugin-typescript2": "^0.24.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "domino": "^2.1.3"
+  }
+}
